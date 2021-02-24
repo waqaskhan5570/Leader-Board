@@ -1,0 +1,90 @@
+.student {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+.left {
+  display: inline-block;
+  width: 60%;
+  margin: 0px;
+  padding: 0px;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.right {
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  padding: 0px;
+  margin: 0px;
+}
+
+.universityName {
+  margin: 0px;
+  padding: 0px;
+  text-transform: capitalize;
+}
+
+.studentName {
+  margin: 0px;
+  padding: 0px;
+  text-transform: capitalize;
+}
+
+.score {
+  font-size: 30px;
+  font-weight: bold;
+  color: green;
+}
+
+button.scoreButton {
+  background: red;
+  border-radius: 100px;
+  display: inline;
+  top: -4px;
+  position: relative;
+  line-height: 16px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+  left: 7px;
+  color: white;
+  border: none;
+}
+
+button.scoreButton.addbtn {
+  background: red;
+}
+
+button.scoreButton.subtractbtn {
+  background: black;
+}
+
+button.scoreButton.addbtn:hover {
+  background: green;
+}
+
+button.scoreButton.subtractbtn:hover {
+  background: rgb(33, 36, 184);
+}
+
+p.universityName span {
+  line-height: 17px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 5px;
+  padding: 1px 5px;
+  border: 3px;
+}
+
+#successSpan {
+  background: green;
+}
+
+#failureSpan {
+  background: red;
+}
